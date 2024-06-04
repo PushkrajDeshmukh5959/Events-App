@@ -2,7 +2,6 @@
  import { headers } from 'next/headers'
  import { WebhookEvent, clerkClient } from '@clerk/nextjs/server'
 
-
  import { NextResponse } from 'next/server'
 import { createUser, deleteUser, updateUser } from '@/lib/actions/user.action'
  
